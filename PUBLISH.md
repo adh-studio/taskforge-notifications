@@ -6,8 +6,7 @@ Le depot local est deja initialise et commite.
 ## Creer le depot distant et pousser
 
 ```bash
-cd /Users/wize/fullstack-entretien/projets/taskforge-notifications
-
+# Depuis la racine du projet (dossier contenant composer.json)
 gh repo create taskforge-notifications \
   --public \
   --description "Microservice PHP de notifications et rapports pour TaskForge (PHP 8.2, MySQL, JWT, PHPUnit, CI)" \
